@@ -9,7 +9,7 @@ def main():
         with open(sys.argv[1]) as file:
             for line in file:
                 line.strip()
-                if line=="\n" or line.startswith("#"): #as linhas vazias ficam apenas com o paragrafo \n
+                if line=="\n" or line.startswith("#"): #empty lines are signal with \n
                     i=i
                 else:
                     lines.append(line)
