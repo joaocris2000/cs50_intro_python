@@ -1,4 +1,4 @@
-#dá as calories do fruto inserido
+#says food calories
 
 def main():
     fruit=input("Whats the fruit? ").strip().lower()
