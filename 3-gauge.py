@@ -1,4 +1,4 @@
-#indicar a percentagem no deposito
+#percentage left in gas tank
 
 while True:
     gasoleo=input("Whats the fraction ")
