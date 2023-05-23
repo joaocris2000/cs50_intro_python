@@ -1,4 +1,4 @@
-# a pepsi cola custa 0.50 e a maquina aceita moedas de 0.05, 0.10 e 0.15
+# it cost 50 cents and the machine acceps only coins of 0.05, 0.10 e 0.15
 
 def main():
     troco=-come_dinheiro()
