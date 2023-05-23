@@ -1,5 +1,5 @@
-#validar se é ip adress
-# formato: #.#.#.#
+#validate if it is IP adress
+# its like -> #.#.#.#
 
 import re
 import sys
