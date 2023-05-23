@@ -5,7 +5,7 @@ try:
     namesz=[]
     while i==0:
         new_name=input("Name: ")
-        namesz.append(new_name)   #append adiciona a uma lista mais cenas
+        namesz.append(new_name)  
 
 
 except EOFError:    #control+z+enter
