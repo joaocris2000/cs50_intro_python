@@ -5,21 +5,21 @@ import csv
 def main():
     is_it_possible()
     students_before=[]
-    #importar do csv
+    #import from csv
     with open(sys.argv[1]) as file:
         reader = csv.DictReader(file)
         for row in reader:
             students_before.append({"name": row["name"], "house": row["house"]})
 
-    #separar os nomes, criando novos dicionarios
+    #spliting names, creating new dict
     students_after=[]
     for row in students_before:
         last,first=row["name"].split(",")
         students_after.append({"first":first,"last":last,"house":row["house"]})
 
 
-    # ordenar por ordem alfabetica do 1º nome
-    #guardar no csv o final
+    #order from the first name
+    #save in the final csv
     with open(sys.argv[2], "a", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=["first","last", "house"])
         writer.writerow({"first": "first", "last": "last", "house":"house"})
