@@ -1,4 +1,4 @@
-#transforma camle (firstName) and snake (first_Name)
+#transforms camle (firstName) into snake (first_Name)
 
 def main():
     ff=input("insert your camel sentence ")
