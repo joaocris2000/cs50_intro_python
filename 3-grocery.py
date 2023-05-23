@@ -1,4 +1,4 @@
-#lista de compras
+#shopping list
 list_gro = dict()
 i=0
 
