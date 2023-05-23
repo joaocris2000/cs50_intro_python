@@ -6,7 +6,7 @@ import tabulate
 def main():
     is_it_correct()
     pizzas=[]
-    #importar as informações
+    #import info
     try:
         with open(sys.argv[1], newline="") as file:
             reader=csv.reader(file)
@@ -14,8 +14,7 @@ def main():
                 pizzas.append(row)
     except FileNotFoundError:
         sys.exit("File does not exist")
-
-    #passar para o quadro bonito
+        
     print(tabulate.tabulate(pizzas,headers="firstrow", tablefmt="grid"))
 
 
