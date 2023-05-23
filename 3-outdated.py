@@ -1,10 +1,10 @@
-#transformar datas de mm-dd-yyyy ou m d, y em yyyy-mm-dd
+#transform from mm-dd-yyyy or m d, y in yyyy-mm-dd
 month_list={   "January": 1,
     "February":2,
     "March":3,
     "April":4,
     "May":5,
-    "June":6,      #biblioteca com os meses
+    "June":6,      #Lib with months of the year
     "July":7,
     "August":8,
     "September":9,
