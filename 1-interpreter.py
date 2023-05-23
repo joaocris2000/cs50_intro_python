@@ -1,4 +1,4 @@
-#é uma calcuadora para quem n ão sabe python
+#calculator
 
 def main():
     expression=input("Expression:" )
