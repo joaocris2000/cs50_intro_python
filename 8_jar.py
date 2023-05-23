@@ -33,7 +33,7 @@ class Jar:
         else:
             raise ValueError("Jar overlodad")
 
-#teste coco.....não tenho emogis
+#test
 def main():
     jar=Jar()
     print(Jar)
