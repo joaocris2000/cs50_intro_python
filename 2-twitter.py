@@ -1,4 +1,4 @@
-#retirar as vogais independentemente do caps
+#removes vowels
 
 def main():
     ff=input("INPUT: ")
