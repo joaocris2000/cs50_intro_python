@@ -1,4 +1,4 @@
-#faz emojis...
+#print emoji
 
 import emoji
 
