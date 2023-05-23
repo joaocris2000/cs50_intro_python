@@ -1,4 +1,4 @@
-#dá o total somado dos varios items
+#sum of several items
 
 import atexit
 
