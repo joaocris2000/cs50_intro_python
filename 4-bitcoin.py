@@ -1,5 +1,4 @@
-#ir a net ver do preço da bitcoin e com info do terminal saber o numero de bitcois
-
+#surf the web for current bitcoin price and know the current valorization o x bitcoins
 import requests
 import sys
 
