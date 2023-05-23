@@ -1,4 +1,4 @@
-#o utilizador põe o nome de ficheiro "blabla.ext" e diz o tipo
+#user inputs file name like "blabla.ext" and returns file type
 #deve ser insensivel a espaços e maiusculas
 
 def main():
@@ -8,7 +8,7 @@ def main():
 
 def processo(string):
     nome_ficheiro,extensao=string.split(".")
-    match extensao:                #os casos a considerar
+    match extensao:                #cases to consider
         case "gif":
             sentence="image/gif"
         case "jpeg":
